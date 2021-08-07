@@ -23,17 +23,7 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff6d910d-7e70-4fb6-9bb5-ffb9fd585ba8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DevelopersGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DevelopersGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Domain/Abstractions/TelegramCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Domain/Abstractions/TelegramCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/MainCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/MainCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/RankCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/RankCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/ShopCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/ShopCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/DevelopersGame.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/DevelopersGame.Web.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/ServiceCollectionExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/ServiceCollectionExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/appsettings.json" afterDir="false" />
-    </list>
+    <list default="true" id="ff6d910d-7e70-4fb6-9bb5-ffb9fd585ba8" name="Default Changelist" comment="token update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,33 +33,31 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Startup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Web/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/BBB3B884-123D-47EA-9CD1-5BED540D02AE/16B/Task.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.DataAccess/Entities/Role.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.DataAccess/Entities/UserRoles.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/DevelopersGame.DataAccess/DataContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.DataAccess/Entities/IEntity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.DataAccess/Entities/BaseEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Web/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.DataAccess.Migrations/Migrations/DataContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Web/ServiceCollectionExtensions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/MainCommand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Domain/Services/CommandService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.DataAccess.Migrations/Migrations/20200227201757_AddedUserTable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.DataAccess/Repositories/IDbRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.DataAccess/Repositories/DbRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.DataAccess/Entities/BaseEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.DataAccess/Entities/Role.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.DataAccess/Entities/IEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.DataAccess/Entities/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.DataAccess/Entities/UserRoles.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.DataAccess/Enums/RankType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Domain/Abstractions/ICommandService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Domain/Abstractions/TelegramCommand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/ShopCommand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/RankCommand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3D477F25-37E4-4CC1-9956-60B75D3620C2/9/EntityFrameworkServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/StartCommand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.DataAccess/Entities/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Domain/Services/CommandService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/MainCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/HelpCommand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.DataAccess/Enums/RankType.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.DataAccess/Repositories/IDbRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.DataAccess.Migrations/Migrations/20200227201757_AddedUserTable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/RankCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/StartCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/ShopCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Controllers/BotController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.DataAccess/Repositories/DbRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.DataAccess.Migrations/Migrations/DataContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -121,7 +109,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -140,6 +127,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.DevelopersGame.Web">
     <configuration name="DevelopersGame.Web" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -227,6 +215,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -247,12 +236,22 @@
       <workItem from="1582964757522" duration="4854000" />
       <workItem from="1583348639177" duration="9276000" />
       <workItem from="1583777064032" duration="3403000" />
+      <workItem from="1628297351758" duration="356000" />
     </task>
+    <task id="LOCAL-00001" summary="token update">
+      <created>1628297461987</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628297461987</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,9 +259,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -281,120 +278,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="736" y="357" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582654033692">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="736" y="357" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1582654033692" />
-    <state width="470" height="466" key="DebuggerActiveHint" timestamp="1583349159898">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="470" height="466" key="DebuggerActiveHint/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583349159898" />
-    <state width="2517" height="492" key="GridCell.Tab.0.bottom" timestamp="1583779511656">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="492" key="GridCell.Tab.0.bottom/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583779511656" />
-    <state width="2517" height="492" key="GridCell.Tab.0.center" timestamp="1583779511656">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="492" key="GridCell.Tab.0.center/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583779511656" />
-    <state width="2517" height="492" key="GridCell.Tab.0.left" timestamp="1583779511656">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="492" key="GridCell.Tab.0.left/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583779511656" />
-    <state width="2517" height="492" key="GridCell.Tab.0.right" timestamp="1583779511656">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="492" key="GridCell.Tab.0.right/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583779511656" />
-    <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1583779511656">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583779511656" />
-    <state width="2517" height="492" key="GridCell.Tab.1.center" timestamp="1583779511656">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.center/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583779511656" />
-    <state width="2517" height="492" key="GridCell.Tab.1.left" timestamp="1583779511656">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.left/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583779511656" />
-    <state width="2517" height="492" key="GridCell.Tab.1.right" timestamp="1583779511656">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.right/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583779511656" />
-    <state width="2517" height="492" key="GridCell.Tab.2.bottom" timestamp="1583779511656">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="492" key="GridCell.Tab.2.bottom/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583779511656" />
-    <state width="2517" height="492" key="GridCell.Tab.2.center" timestamp="1583779511656">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="492" key="GridCell.Tab.2.center/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583779511656" />
-    <state width="2517" height="492" key="GridCell.Tab.2.left" timestamp="1583779511656">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="492" key="GridCell.Tab.2.left/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583779511656" />
-    <state width="2517" height="492" key="GridCell.Tab.2.right" timestamp="1583779511656">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="492" key="GridCell.Tab.2.right/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583779511656" />
-    <state width="2517" height="492" key="GridCell.Tab.3.bottom" timestamp="1583779511657">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="492" key="GridCell.Tab.3.bottom/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583779511657" />
-    <state width="2517" height="492" key="GridCell.Tab.3.center" timestamp="1583779511657">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="492" key="GridCell.Tab.3.center/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583779511657" />
-    <state width="2517" height="492" key="GridCell.Tab.3.left" timestamp="1583779511656">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="492" key="GridCell.Tab.3.left/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583779511656" />
-    <state width="2517" height="492" key="GridCell.Tab.3.right" timestamp="1583779511657">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="492" key="GridCell.Tab.3.right/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583779511657" />
-    <state width="2517" height="492" key="GridCell.Tab.4.bottom" timestamp="1583779511657">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="492" key="GridCell.Tab.4.bottom/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583779511657" />
-    <state width="2517" height="492" key="GridCell.Tab.4.center" timestamp="1583779511657">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="492" key="GridCell.Tab.4.center/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583779511657" />
-    <state width="2517" height="492" key="GridCell.Tab.4.left" timestamp="1583779511657">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="492" key="GridCell.Tab.4.left/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583779511657" />
-    <state width="2517" height="492" key="GridCell.Tab.4.right" timestamp="1583779511657">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="492" key="GridCell.Tab.4.right/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583779511657" />
-    <state x="873" y="434" key="Rider.ProjectTemplateDialog.Size" timestamp="1583355174226">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="873" y="434" key="Rider.ProjectTemplateDialog.Size/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583355174226" />
-    <state x="1066" y="392" key="RiderGenerateDialog" timestamp="1582836646082">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1066" y="392" key="RiderGenerateDialog/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1582836646082" />
-    <state x="782" y="344" key="SettingsEditor" timestamp="1582648467114">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="782" y="344" key="SettingsEditor/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1582648467114" />
-    <state x="922" y="427" width="700" height="530" key="recent.locations.popup" timestamp="1582832021602">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="922" y="427" width="700" height="530" key="recent.locations.popup/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1582832021602" />
-    <state x="937" y="331" key="run.anything.popup" timestamp="1583778061263">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="937" y="331" key="run.anything.popup/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1583778061263" />
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1582652732448">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1582652732448" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="token update" />
+    <option name="LAST_COMMIT_MESSAGE" value="token update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
