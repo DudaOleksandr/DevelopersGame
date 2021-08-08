@@ -23,7 +23,15 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff6d910d-7e70-4fb6-9bb5-ffb9fd585ba8" name="Default Changelist" comment="token update" />
+    <list default="true" id="ff6d910d-7e70-4fb6-9bb5-ffb9fd585ba8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/CreateBunkerCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/JoinLobbyCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/StartBunkerCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DevelopersGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DevelopersGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/StartCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/StartCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Domain/Services/CommandService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Domain/Services/CommandService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/appsettings.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -236,7 +244,7 @@
       <workItem from="1582964757522" duration="4854000" />
       <workItem from="1583348639177" duration="9276000" />
       <workItem from="1583777064032" duration="3403000" />
-      <workItem from="1628297351758" duration="356000" />
+      <workItem from="1628297351758" duration="1926000" />
     </task>
     <task id="LOCAL-00001" summary="token update">
       <created>1628297461987</created>
@@ -245,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628297461987</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Url update">
+      <created>1628297871590</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1628297871590</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +298,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="token update" />
-    <option name="LAST_COMMIT_MESSAGE" value="token update" />
+    <MESSAGE value="Url update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Url update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
