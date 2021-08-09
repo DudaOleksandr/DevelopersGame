@@ -23,9 +23,11 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff6d910d-7e70-4fb6-9bb5-ffb9fd585ba8" name="Default Changelist" comment="">
+    <list default="true" id="ff6d910d-7e70-4fb6-9bb5-ffb9fd585ba8" name="Default Changelist" comment="Added commands">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DevelopersGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DevelopersGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/ServiceCollectionExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/ServiceCollectionExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/CreateBunkerCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/CreateBunkerCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/JoinLobbyCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/JoinLobbyCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/StartBunkerCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/StartBunkerCommand.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,8 +117,6 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -239,7 +239,7 @@
       <workItem from="1582964757522" duration="4854000" />
       <workItem from="1583348639177" duration="9276000" />
       <workItem from="1583777064032" duration="3403000" />
-      <workItem from="1628297351758" duration="6525000" />
+      <workItem from="1628297351758" duration="3855000" />
     </task>
     <task id="LOCAL-00001" summary="token update">
       <created>1628297461987</created>
@@ -262,14 +262,7 @@
       <option name="project" value="LOCAL" />
       <updated>1628429399044</updated>
     </task>
-    <task id="LOCAL-00004" summary="fix, hope this will work">
-      <created>1628496762660</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1628496762660</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,8 +302,7 @@
     <MESSAGE value="token update" />
     <MESSAGE value="Url update" />
     <MESSAGE value="Added commands" />
-    <MESSAGE value="fix, hope this will work" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix, hope this will work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added commands" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -331,32 +323,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/src/DevelopersGame.Web/Controllers/BotController.cs</url>
-          <line>37</line>
-          <properties documentPath="C:\Users\oleksandr.duda\RiderProjects\DevelopersGame\src\DevelopersGame.Web\Controllers\BotController.cs" initialLine="37" containingFunctionPresentation="method 'Post'">
-            <startOffsets>
-              <option value="1101" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1152" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/src/DevelopersGame.Web/Controllers/BotController.cs</url>
-          <line>23</line>
-          <properties documentPath="C:\Users\oleksandr.duda\RiderProjects\DevelopersGame\src\DevelopersGame.Web\Controllers\BotController.cs" initialLine="23" containingFunctionPresentation="method 'Get'">
-            <startOffsets>
-              <option value="713" />
-            </startOffsets>
-            <endOffsets>
-              <option value="734" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
