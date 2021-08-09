@@ -7,7 +7,7 @@ namespace DevelopersGame.Domain.Commands
 {
     public class CreateBunkerCommand : TelegramCommand
     {
-        public override string Name { get; }
+        public override string Name => @"/create_bunker";
         public override Task Execute(Message message, ITelegramBotClient client)
         {
             throw new System.NotImplementedException();

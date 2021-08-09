@@ -7,7 +7,7 @@ namespace DevelopersGame.Domain.Commands
 {
     public class JoinLobbyCommand : TelegramCommand
     {
-        public override string Name { get; }
+        public override string Name => @"/join_lobby";
         public override Task Execute(Message message, ITelegramBotClient client)
         {
             throw new System.NotImplementedException();
