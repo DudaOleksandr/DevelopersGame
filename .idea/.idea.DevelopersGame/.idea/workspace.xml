@@ -24,12 +24,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff6d910d-7e70-4fb6-9bb5-ffb9fd585ba8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/CreateBunkerCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/JoinLobbyCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/StartBunkerCommand.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DevelopersGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DevelopersGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/StartCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/StartCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Domain/Services/CommandService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Domain/Services/CommandService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/ServiceCollectionExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/ServiceCollectionExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +43,7 @@
     <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Web/ServiceCollectionExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/DevelopersGame.DataAccess.Migrations/Migrations/20200227201757_AddedUserTable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/984868978cb24d9db0880c494931882b2e200/73/5552692e/Update.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/DevelopersGame.DataAccess/Repositories/IDbRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/DevelopersGame.DataAccess/Repositories/DbRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Startup.cs" root0="FORCE_HIGHLIGHTING" />
@@ -59,11 +56,7 @@
     <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Domain/Abstractions/ICommandService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Domain/Abstractions/TelegramCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Domain/Services/CommandService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/MainCommand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/HelpCommand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/RankCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/StartCommand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/ShopCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Controllers/BotController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -122,6 +115,8 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -244,7 +239,7 @@
       <workItem from="1582964757522" duration="4854000" />
       <workItem from="1583348639177" duration="9276000" />
       <workItem from="1583777064032" duration="3403000" />
-      <workItem from="1628297351758" duration="1926000" />
+      <workItem from="1628297351758" duration="6525000" />
     </task>
     <task id="LOCAL-00001" summary="token update">
       <created>1628297461987</created>
@@ -260,7 +255,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628297871590</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added commands">
+      <created>1628429399044</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1628429399044</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix, hope this will work">
+      <created>1628496762660</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1628496762660</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +308,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="token update" />
     <MESSAGE value="Url update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Url update" />
+    <MESSAGE value="Added commands" />
+    <MESSAGE value="fix, hope this will work" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix, hope this will work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -320,6 +331,32 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/src/DevelopersGame.Web/Controllers/BotController.cs</url>
+          <line>37</line>
+          <properties documentPath="C:\Users\oleksandr.duda\RiderProjects\DevelopersGame\src\DevelopersGame.Web\Controllers\BotController.cs" initialLine="37" containingFunctionPresentation="method 'Post'">
+            <startOffsets>
+              <option value="1101" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1152" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/src/DevelopersGame.Web/Controllers/BotController.cs</url>
+          <line>23</line>
+          <properties documentPath="C:\Users\oleksandr.duda\RiderProjects\DevelopersGame\src\DevelopersGame.Web\Controllers\BotController.cs" initialLine="23" containingFunctionPresentation="method 'Get'">
+            <startOffsets>
+              <option value="713" />
+            </startOffsets>
+            <endOffsets>
+              <option value="734" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
